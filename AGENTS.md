@@ -69,20 +69,14 @@ use function count;
 
 ## File Structure
 /
-├── public/
-│   ├── index.php         # Punto de entrada único
-│   └── css/
-│       └── style.css     # Estilos CSS nativos
+├── index.php 
+│       # Estilos Botstrapp
 ├── src/
-│   ├── App.php           # Controlador principal (Lógica PRG)
-│   ├── RandomGenerator.php # Generación de números
-│   ├── Request.php       # Manejo de $_GET y $_POST
-│   └── Renderer.php      # Carga de archivos .php de la carpeta views
+│   ├── RandomGNumberenerator.php 
+│   ├── RandomNumberStats.php      
 ├── views/
-│   ├── form.php          # Interfaz del formulario
-│   └── results.php       # Interfaz de la tabla
-└── tests/
-    └── run_tests.php     # Script de aserciones simples
+│   ├── index.php
+
 
 ## Agent Notes
 1. Read and understand structure before modifying
